@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url(fonts/Roboto-Regular.ttf) format(truetype);
+}
+
+*{
+    margin: 0;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+header div{
+    text-align: center;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navlinks h4{
+    display: inline;
+    padding: 0px 10px;
+}
+
+.banner{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.banner div{
+    padding: 30px;
+    width: 50%;
+}
+
+.bannertext{
+    margin-left: 150px; 
+}
+
+.bannertext h1{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.bannertext p{
+    font-weight: lighter;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.bannertext button{
+    background-color: #3882F6;
+    padding: 10px 20px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.bannerimg img{
+    width: 90%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.productsection{
+    text-align: center;
+    padding: 30px;
+}
+
+.productdiv{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 100px;
+    color: gray;
+}
+
+.productdiv div{
+    padding: 30px 0px;
+}
+
+.productdiv img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px;
+    margin: 15px 100px;
+}
+
+.quote p{
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote h6{
+    text-align: right;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.newsletter{
+    background-color: #3882F6;
+    color: white;
+    margin: 30px 150px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newsletter p{
+    font-weight: lighter;
+}
+
+.newsletter button{
+    border: 1px solid white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;  
+}
